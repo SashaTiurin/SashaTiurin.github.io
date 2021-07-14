@@ -1,2 +1,2 @@
-# SashaTiurin.github.io
+# Саша Тюрин
 Мой сайт-визитка
