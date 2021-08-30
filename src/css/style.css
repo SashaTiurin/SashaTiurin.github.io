@@ -1,0 +1,652 @@
+ body{
+    font-family: 'Franklin Gothic', Arial, sans-serif;
+}
+
+
+/*Верхнее меню*/
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #344051;
+}
+
+.logo{
+    color: #fff;
+    font-size: 20px;
+    line-height: 60px;
+    padding-left: 18%;
+    float: left;
+    
+}
+
+.main_menu{
+    margin-left: 20%;
+    float: left;
+}
+
+.main_menu li{
+    float: left;
+    color: #fff;
+    font-size: 75%;
+    line-height: 60px;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+
+
+/*ТИТУЛЬНЫЙ БЛОК*/
+
+.main{
+    float: left;
+    width: 100%;
+    height: calc(100% - 60px);
+    
+    font-size: 50px;
+    padding-right: 33%;
+    padding-top: 19%;
+    text-align: center;
+    letter-spacing: -3px;
+    
+    background: url(../img/Title/Парень.png) no-repeat 95% 100% /  auto 90%, 
+    url(../img/Title/фон.png) no-repeat center / 100% auto; 
+    box-shadow: inset 0 -20px 16px -16px rgba(0,0,0,0.6);
+
+}
+
+.main h1{
+    color: #2c384a;
+}
+
+.main h4{
+    font-size: 18px;
+    margin-top: 40px;
+    color: #79818d;
+    letter-spacing: 0px;
+}
+
+.main input{
+    font-size: 18px;
+    color: #79818d;
+    text-align: center;
+
+    margin-top: 58px;
+    height: 40px;
+    border: 2px solid #79818d;
+    border-radius: 4px;
+    background: none;
+    
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+
+/*ОБО МНЕ*/
+
+.about_me{
+    float: left;
+    width: 100%;
+    height: 58%;
+    padding-top: 2%;
+
+    background-color: #fff;
+    background: url(../img/General/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png) no-repeat 50% 24% / 3.5% 2px;
+}
+
+.name_of_blocks h2{
+    font-size: 160%;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 300;
+    color: #263244;
+    
+    text-align: center;
+    padding-top: 3%;
+}
+
+.about_me img{
+    width: 10%;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 4%;
+}
+
+.about_me p{    
+    color: #3e4859;
+    font-size: 80%;
+    text-align: left;
+    line-height: 13px;
+    
+    width: 38%;
+    margin: 1% auto 1.5% 31% ;
+}
+
+.about_me button{
+    width: 120px;
+    height: 25px;
+    border: 2px solid;
+    border-radius: 4px;
+    
+    color: #6f707e;
+    font-size: 80%;
+    
+    
+    background-color: none;
+    background: url(../img/About_me/%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D0%B0.png) no-repeat 7% 50% / 10% auto ;
+    
+    padding-top: 1.2px;
+    padding-left: 20px;
+    
+    margin-left: 45.5%;
+    margin-top: 0/5%;
+}
+
+
+/*ЧТО Я УМЕЮ*/
+
+.what_i_can{
+    width: 100%;
+    height: 49.2%;
+    float: left;
+            
+    background: url(../img/General/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png) no-repeat 50% 31% / 3.9% 3px, url(../img/What_i_can/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0.png) no-repeat 0% 0% / 100% auto;
+    
+    padding-left: 12.5%;
+}
+
+.ability {
+    float: left;
+    margin-left: 5%;
+    margin-top: 8%;
+    width: 15%;
+    text-align: center;
+}
+
+.image_ability {
+    width: 16%;
+    height: auto;
+}
+
+.name_ability{
+    color: #cf7600;
+    margin-top: 13%;
+    font-size: 90%;
+}
+
+.text_ability {
+    color: #58606f;
+    margin-top: 6%;
+    font-size: 75%;
+    letter-spacing: -0.5px;
+    line-height: 15px;
+}
+
+.name_this_block h2 {
+    font-size: 160%;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 300;
+    color: #263244;
+    
+    width: 86.5%;
+    text-align: center;
+    margin-top: 6%;
+}
+
+
+/*КЕЙСЫ*/
+
+.cases{
+    float: left;
+    width: 100%;
+    height: 105%;
+        
+}
+
+.grey_block{
+    width: 100%;
+    height: 25%;
+    
+    background: url(../img/General/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png) no-repeat 50% 60% / 3.5% 3px ; 
+    background-color: #fcfdfd;
+    
+    padding-top: 5.5%;
+}
+
+.name_of_cases_block{
+    font-size: 160%;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 300;
+    color: #263244;
+    
+    text-align: center;
+}
+
+.grey_block p {
+    font-size: 80% ; 
+    letter-spacing: -0.5px;
+    color: #3f495a ;
+    
+    margin-left: 27%;
+    margin-top: 4%;
+}
+
+.cases img {
+    width: 55%;
+    height: auto;
+    
+    margin-left: 22.5%;
+    margin-top: 0px;
+}
+
+
+
+.client_website {
+    float: left;
+    letter-spacing: -0.5px;
+    margin-left: 22.5%;
+    font-size: 75%;
+    width: 10%;
+}
+
+.client_website h3 {
+    font-size: 150%;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 560;
+    
+    margin-top: 8%;
+}
+
+.client_website p{
+    margin-top: 5%;
+}
+
+.client_website button{
+    border: none;
+    border-radius: 2px;
+    background-color: #63b5ae;
+    width: 100%;
+    height: 30px;
+    padding-bottom: 3.5%;
+    padding-top: 3.5%;
+    
+    font-size: 130%;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.name_of_project{
+    width: 39.5%;
+    margin-left: 36%;
+    margin-top: 0.7%;
+    
+    line-height: 15px;
+}
+
+.name_of_project h3{
+    font-weight: 560;
+    font-size: 115%;
+}
+
+.name_of_project p{
+    font-size: 88.5%;
+    line-height: 15px;
+    letter-spacing: -0.5;
+    margin-top: 1%;
+}
+
+.client_website , .name_of_project {
+    color: #384354;
+}
+
+
+
+
+/*РАСЧЁТ СТОИМОСТИ*/
+
+.cost_calculation{
+    float: left;
+    width: 100%;
+    height: 73%;
+    
+    padding-top: 4%;
+}
+
+
+.cost_calculation h2{
+    text-align: center;
+    font-size: 220%;
+    letter-spacing: -1px;
+    color: #1c2534;
+}
+
+
+.choice{
+    width: 43%;
+    margin-left: 28.5%;
+    margin-top: 2%;
+    
+    background: url(../img/Cost_calculation/%D0%BB%D0%B8%D0%BD%D0%B8%D1%8F%20%D0%BF%D0%BE%D0%B4%D0%B8%D1%82%D0%BE%D0%B3%D0%B0.png) no-repeat 50% 85% / 100% 1.5px ;
+}
+
+.parameter{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 150%;
+}
+
+.choice_to_parameter select , .choice_to_designes_parameter select {
+    border-radius: 3px;
+    width: 100%;
+    color: #737373;
+    text-align: left;
+    padding: 1.5% 2% ;
+    margin: 2% 0% 4% 0% ;
+}
+
+.choice_to_parameter select {
+    background-color: #eeeeee;
+}
+
+.choice_to_designes_parameter select{
+    background-color: #fff;
+}
+
+
+.timing_price{
+    float: left;
+    margin-top: 3%;
+}
+
+.meaning{
+    margin-left: 98%;
+    margin-top: 2%;
+    font-size: 150%
+}
+
+.timing_price p {
+    margin-top: 10%;
+}
+
+.meaning p {
+    margin-top: 25%
+}
+
+
+
+/*НЕМНОГО СТАТИСТИКИ*/
+
+
+.some_statistics{
+    float: left;
+    width: 100%;
+    height: 46.9%;
+    padding-top: 2%;
+    
+    background: url(../img/General/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png) no-repeat 50% 31.8% / 3.9% 3px , url(../img/Some_statistics/фон.png) no-repeat 0% 0% / 100% auto ; 
+}
+
+
+.statistic{
+    float: left;
+    width: 13%;
+    height: 115px;
+    
+    margin-top: 6%;
+    margin-left: 5%;
+    
+    padding-bottom: 0px;
+    
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.statistic p {
+    margin-top: 15%;
+    color: #323e4f;
+}
+
+.statistic img {
+    width: 30%;
+    height: auto;
+}
+
+.meaning_statistic{
+    font-size: 140%;
+    font-family: fantasy;
+    
+    letter-spacing: 0px;
+}
+
+.name_statistic {
+    margin-bottom: 0px;
+    letter-spacing: -0.5px; 
+    font-size: 75%;
+}
+
+.statistics_block{
+    margin-left: 18.5%;
+    margin-top: 2%
+}
+
+
+
+/*ОТЗЫВЫ*/
+
+.reviews{
+    float: left;
+    
+    width: 100%;
+    height: 58%;
+    
+    padding-top: 2%;
+    
+    background: url(../img/General/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png) no-repeat 50% 25% / 3.3% 3.5px ;
+}
+
+.foto_reviews{
+    width: 6%;
+    height: auto;
+    
+    margin: 5% auto auto 47% ;
+}
+
+.reviews p {
+    width: 40%;
+    margin: 2% auto auto 30%;
+
+    text-align: center;
+    font-size: 75%;
+    color: #243041;
+    line-height: 150%;
+}
+
+.tabs_points{
+    width: 3.8%;
+    height: auto;
+    margin: 2% auto auto 48.2% ;
+}
+
+
+.tabs_points img {
+    width: 15%;
+    margin-left: 12%;
+}
+
+
+/*МОИ КОНТАКТЫ*/
+
+.my_contacts{
+    float: left;
+    width: 100%;
+    height: 76%;
+    
+    background: url(../img/General/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png) no-repeat 50% 19% / 3.9% 4px , url(../img/My_contacts/Фон.png) no-repeat 0% 0% / 100% auto;
+    
+    color: #fff;
+    background-color: aqua;
+}
+
+.my_contacts_heading{
+    font-size: 160%;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 300;
+    color: #fff;
+    
+    text-align: center;
+    padding-top: 5%;
+}
+
+.my_contacts_first_text {
+    font-size: 73%;
+    
+    width: 43%;
+    margin: 3.5% auto auto 28.5%;
+    text-align: center;
+}
+
+.datas_block{
+    width: 45%;
+    height: 10%;
+    
+    text-align: center;
+    margin: 1.5% auto 0% 27.2%;
+}
+
+.my_data{
+    float: left;
+    text-align: center;
+    font-size: 73%;
+    
+    width: 23%;
+    height: 100%;
+    
+    margin-left: 8%;
+    margin-top: 2.5%;
+}
+
+.my_data img {
+    width: 13%;
+    height: auto;
+}
+
+.my_data p {
+    line-height: 150%;
+    margin-top: 5%;
+}
+
+.connection{
+    width: 38%;
+    height: auto;
+    margin: 3% auto auto 31%;
+}
+
+.connection h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 110%;
+    margin: 0% auto 6% auto ;
+}
+
+.clients_name , .clients_email , .clients_message {
+    background-color: #fff;
+    opacity: 0.8;
+    font-size: 73%;
+    
+    padding-left: 1%;
+}
+
+.clients_name{
+    width: 48%;
+    height: 24px;
+    margin-right: 3%;
+}
+
+.clients_email{
+    width: 48%;
+    height: 24px;
+}
+
+.clients_message{
+    width: 100%;
+    height: 70px;
+    margin-top: 1.5%;
+}
+
+
+.connection button {
+    text-align: center;
+    font-size: 90%;
+    color: #fff;
+
+    width: 18%;
+    height: 35px;
+    margin: 7% auto auto 41.5% ;
+    border: 1.8px solid #fff;
+    border-radius: 3px;
+    
+    background-color: transparent;
+}
+
+
+
+.social_network{
+    width: 25%;
+    margin: 3% auto auto 36% ;
+    text-align: center;
+}
+
+.social_network img {
+    width: 4.5%;
+    margin-left: 9%;
+}
+
+.facebook_icon{
+    width: 3%;
+}
+
+
+
+/*КАРТА*/ 
+
+.map{
+    float: left;
+    width: 100%;
+    height: 33.4%;
+    
+    background-color: aqua;
+}
+
+.map img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*ФУТЕР*/
+
+footer{
+    float: left;
+    width: 100%;
+    height: 8%;
+    background-color: #354051; 
+}
+
+footer p {
+    float: left;
+    color: #fff;
+    font-size: 75%;
+    
+    width: 16.5%;
+    margin: 2% 41.75%;
+}
+
+
+
